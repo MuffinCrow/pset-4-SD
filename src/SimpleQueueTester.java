@@ -107,8 +107,8 @@ public class SimpleQueueTester {
             added = queue.add("second");
             added = queue.add("third");
 
-            sb.append("\nAll items added to the queue: " + added);
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("All items added to the queue: " + added);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nRemaining capacity of queue: " + queue.remainingCapacity());
         } catch (Exception e) {
@@ -173,7 +173,7 @@ public class SimpleQueueTester {
             added = queue.offer("third");
 
             sb.append("\nAll items added to the queue: " + added);
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nRemaining capacity of queue: " + queue.remainingCapacity());
         } catch (Exception e) {
@@ -240,8 +240,8 @@ public class SimpleQueueTester {
             added = simpleQueue.add("second");
             added = simpleQueue.add("third");
 
-            sb.append("\nAll items added to the queue: " + added);
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("All items added to the queue: " + added);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nRemaining capacity of queue: " + simpleQueue.remainingCapacity());
         } catch (Exception e) {
@@ -306,7 +306,7 @@ public class SimpleQueueTester {
             added = simpleQueue.offer("third");
 
             sb.append("\nAll items added to the queue: " + added);
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nRemaining capacity of queue: " + simpleQueue.remainingCapacity());
         } catch (Exception e) {
@@ -498,7 +498,7 @@ public class SimpleQueueTester {
         try {
             ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
 
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             
             queue.add("A");
             queue.add("B");
@@ -514,7 +514,7 @@ public class SimpleQueueTester {
         try {
             ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
 
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             
             queue.add("A");
             queue.add("B");
@@ -530,7 +530,7 @@ public class SimpleQueueTester {
         try {
             ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
 
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             
             queue.add("A");
             queue.add("B");
@@ -546,7 +546,7 @@ public class SimpleQueueTester {
         try {
             ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
 
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             
             queue.add("A");
             queue.add("B");
@@ -578,7 +578,7 @@ public class SimpleQueueTester {
         try {
             SimpleQueue simpleQueue = new SimpleQueue(10);
 
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             
             simpleQueue.add("A");
             simpleQueue.add("B");
@@ -594,7 +594,7 @@ public class SimpleQueueTester {
         try {
             SimpleQueue simpleQueue = new SimpleQueue(10);
 
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             
             simpleQueue.add("A");
             simpleQueue.add("B");
@@ -610,7 +610,7 @@ public class SimpleQueueTester {
         try {
             SimpleQueue simpleQueue = new SimpleQueue(10);
 
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             
             simpleQueue.add("A");
             simpleQueue.add("B");
@@ -626,7 +626,7 @@ public class SimpleQueueTester {
         try {
             SimpleQueue simpleQueue = new SimpleQueue(10);
 
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             
             simpleQueue.add("A");
             simpleQueue.add("B");
@@ -866,7 +866,7 @@ public class SimpleQueueTester {
         try {
             ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
             
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nInitial remaining capacity of queue: " + queue.remainingCapacity());
             
@@ -891,7 +891,7 @@ public class SimpleQueueTester {
             queue.add("D");
             queue.add("F");
             
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nInitial remaining capacity of queue: " + queue.remainingCapacity());
             
@@ -910,7 +910,7 @@ public class SimpleQueueTester {
         try {
             ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
             
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nInitial remaining capacity of queue: " + queue.remainingCapacity());
             
@@ -935,7 +935,7 @@ public class SimpleQueueTester {
             queue.add("D");
             queue.add("F");
             
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nInitial remaining capacity of queue: " + queue.remainingCapacity());
             
@@ -953,7 +953,7 @@ public class SimpleQueueTester {
         try {
             ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
             
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nInitial remaining capacity of queue: " + queue.remainingCapacity());
             
@@ -977,7 +977,7 @@ public class SimpleQueueTester {
             queue.add("D");
             queue.add("F");
             
-            sb.append("Initial contents of queue: " + queue);
+            sb.append("\nInitial contents of queue: " + queue);
             sb.append("\nInitial size of queue: " + queue.size());
             sb.append("\nInitial remaining capacity of queue: " + queue.remainingCapacity());
             
@@ -1023,7 +1023,7 @@ public class SimpleQueueTester {
         try {
             SimpleQueue simpleQueue = new SimpleQueue(10);
             
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nInitial remaining capacity of queue: " + simpleQueue.remainingCapacity());
             
@@ -1048,7 +1048,7 @@ public class SimpleQueueTester {
             simpleQueue.add("D");
             simpleQueue.add("F");
             
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nInitial remaining capacity of queue: " + simpleQueue.remainingCapacity());
             
@@ -1067,7 +1067,7 @@ public class SimpleQueueTester {
         try {
             SimpleQueue simpleQueue = new SimpleQueue(10);
             
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nInitial remaining capacity of queue: " + simpleQueue.remainingCapacity());
             
@@ -1092,7 +1092,7 @@ public class SimpleQueueTester {
             simpleQueue.add("D");
             simpleQueue.add("F");
             
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nInitial remaining capacity of queue: " + simpleQueue.remainingCapacity());
             
@@ -1110,7 +1110,7 @@ public class SimpleQueueTester {
         try {
             SimpleQueue simpleQueue = new SimpleQueue(10);
             
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nInitial remaining capacity of queue: " + simpleQueue.remainingCapacity());
             
@@ -1134,7 +1134,7 @@ public class SimpleQueueTester {
             simpleQueue.add("D");
             simpleQueue.add("F");
             
-            sb.append("Initial contents of queue: " + simpleQueue);
+            sb.append("\nInitial contents of queue: " + simpleQueue);
             sb.append("\nInitial size of queue: " + simpleQueue.size());
             sb.append("\nInitial remaining capacity of queue: " + simpleQueue.remainingCapacity());
             
