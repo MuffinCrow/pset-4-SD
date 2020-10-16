@@ -2,7 +2,6 @@
 .project
 .settings/
 bin/
-src/SimpleQueue.java
 out/
 .idea/
 pset-4-SD.iml
